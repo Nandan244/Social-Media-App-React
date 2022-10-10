@@ -1,0 +1,122 @@
+.Auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    position: relative;
+    overflow: hidden;
+}
+.Auth  >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-left{
+    gap: 2rem;
+}
+.auth-left>img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.Appname>h1{
+    font-size: 3rem;
+    background-color: red;
+    margin-bottom: 0;
+    background-image: var(--buttonBg);
+    background-size: 100%;
+    background-repeat: repeat;
+
+    -webkit-background-clip : text;
+    -webkit-text-fill-color: transparent;
+
+    -moz-background-clip : text;
+    -moz-text-fill-color: transparent;
+}
+
+.Appname>h6{
+    font-size: 0.85rem;
+    margin-top: 0;
+}
+
+
+.InfoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.infoInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+    
+    
+}
+.InfoForm>div{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 90%;
+}
+.info-btn{
+    width: 6rem;
+    height: 2.4rem;
+    align-self: center;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+.authForm{
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: var(--profileShadow);
+}
+
+.authForm>div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.authLoginForm{
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: var(--profileShadow);
+    width: 20rem;
+}
+.ImgUpload{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.6rem;
+}
+.ImgUpload>.file-btn::-webkit-file-upload-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border:none;
+  border-radius: 0.5rem;
+  background: var(--buttonBg);
+  transition: all 100ms ease-in-out;
+  height: 2.4rem;
+  width: 10rem;
+}
+.ImgUpload>.file-btn::-webkit-file-upload-button:hover{
+    cursor: pointer;
+    color: var(--orange);
+    background: transparent;
+    border: 2px solid var(--orange);   
+}
+.ImgUpload>.file-btn::-webkit-file-upload-button::after{
+    visibility: hidden;
+}

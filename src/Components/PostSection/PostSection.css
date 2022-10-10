@@ -1,0 +1,10 @@
+.PostSection{
+    display: flex;
+    flex-direction: column;
+    height: 130vh;
+    overflow: auto;
+    gap: 1rem;
+}
+::-webkit-scrollbar{
+    display: none;
+}

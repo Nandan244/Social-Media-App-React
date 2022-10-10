@@ -1,0 +1,22 @@
+.EventSection{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100vh;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.nav-icons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-icons>svg{
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+.eventShareBtn{
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+}
